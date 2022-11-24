@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello PremierController!{% endblock %}
+
+{% block body %}
+
+<div class="container">
+    <h1>Salut {{ controller_name }}! ✅</h1>
+
+    Petit test pour Sweet alert 2
+    <ul>
+        <li>
+        <a class="truc btn btn-info" href="{{path('app_coucou')}}">Coucou</a>
+        </li>
+    </ul>
+</div>
+            <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+            <script src="js/truc.js"></script>
+{% endblock %}

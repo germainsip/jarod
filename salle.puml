@@ -1,0 +1,21 @@
+@startuml salles
+class Salle
+{
+    String nom
+    int places
+    int postes
+    int places_prises
+    int postes_prises
+    boolean videopro
+}
+
+class Batiment
+{
+    String nom
+    String GRN
+}
+
+
+Salle "many" -- "1" Batiment
+@enduml
+
